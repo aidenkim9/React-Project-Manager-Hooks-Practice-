@@ -29,18 +29,18 @@ React의 핵심 훅(useState, useRef)을 활용하여
 ## 📂 프로젝트 구조
 
 src/
-┣ components/
-┃ ┣ Sidebar.jsx
-┃ ┣ BasicPage.jsx
-┃ ┣ Button.jsx
-┃ ┣ Input.jsx
-┃ ┣ Modal.jsx
-┃ ┣ NewProject.jsx
-┃ ┣ ProjectDetails.jsx
-┃ ┣ Tasks.jsx
-┣ App.jsx
-┣ index.css
-┗ main.jsx
+├ components/
+│  ├ Sidebar.jsx
+│  ├ BasicPage.jsx
+│  ├ Button.jsx
+│  ├ Input.jsx
+│  ├ Modal.jsx
+│  ├ NewProject.jsx
+│  ├ ProjectDetails.jsx
+│  └ Tasks.jsx
+├ App.jsx
+├ index.css
+└ main.jsx
 
 ---
 
@@ -58,8 +58,11 @@ src/
 ---
 
 ## 📸 미리보기
+> React Hooks와 상태 관리를 연습하기 위해 제작한 프로젝트입니다.
+<img width="1437" height="827" alt="스크린샷 2026-02-09 오후 4 42 29" src="https://github.com/user-attachments/assets/0d031c13-4d49-4ef9-b272-22e7efce8fb1" />
+<img width="1440" height="835" alt="스크린샷 2026-02-09 오후 4 42 42" src="https://github.com/user-attachments/assets/61b044df-6dca-4fbe-a5bc-23d835903804" />
+<img width="1440" height="832" alt="스크린샷 2026-02-09 오후 4 43 32" src="https://github.com/user-attachments/assets/74a970a9-6a03-4b31-84b4-a5584ea6d4b2" />
 
-> (추후 스크린샷 추가 예정)
 
 ---
 
@@ -69,6 +72,7 @@ src/
 - `useRef`와 `useState`의 역할 차이를 명확히 이해하게 됨
 - `prop drilling`의 번거로움을 체감할 수 있었음
 - 다음 단계로는 **DB를 활용한 풀스택 구조**를 추가해볼 계획
+
 
 ---
 
